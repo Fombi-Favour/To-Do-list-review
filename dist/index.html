@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <title>To Do List</title>
+<script defer src="bundle.js"></script></head>
+<body>
+    <main class="card">
+        <!-- header -->
+        <div class="head">
+            <span>Today's To Do</span>
+            <i class="las la-sync-alt"></i>
+        </div>
+        <!-- form -->
+        <div class="enter-task">
+            <p class="warning"></p>
+            <form id="forms">
+                <input type="text" class="input-col" id="today-todo" placeholder="Add to your list...">
+                <button type="submit" class="btn-send"><i class="las la-undo"></i></button>
+            </form>
+        </div>
+        <!-- To Do task list -->
+        <div class="task-list"></div>
+        <!-- clear all button -->
+        <div class="clear-all">
+            <button type="button" class="clear-complete">Clear all completed</button>
+        </div>
+    </main>
+</body>
+</html>
